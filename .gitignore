@@ -1,0 +1,4 @@
+# El repo público sirve solo imágenes vía jsDelivr.
+# El HTML de las campañas se queda local (contiene copy aún sin confirmar).
+broadcast/
+.DS_Store
