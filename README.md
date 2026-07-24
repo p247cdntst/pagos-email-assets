@@ -12,19 +12,21 @@ https://cdn.jsdelivr.net/gh/pdvarela/pagos-email-assets@main/
 
 ## Archivos
 
-| Archivo | Uso |
-|---|---|
-| `logo-white.png` | Logo horizontal blanco (header sobre navy) |
-| `logo-navy.png` | Logo horizontal navy (fondo claro) |
-| `logo-white-mark.png` | Isotipo blanco |
-| `logo-lime-mark.png` | Isotipo lime |
-| `hero-pix.png` | Hero del email 01 (lanzamiento) |
-| `step-1.png`, `step-2.png`, `step-3.png` | Capturas de los 3 pasos (email 02) |
-| `icon-instant.png`, `icon-free.png`, `icon-key.png` | Iconos de beneficios |
-| `push-icon.png` | Icono de notificación push |
+| Archivo | Tamaño real | Uso |
+|---|---|---|
+| `logo-navy.png` | 487×98 | Logo horizontal navy (header sobre fondo claro) |
+| `logo-white.png` | 487×98 | Logo horizontal blanco (footer oscuro) |
+| `logo-white-mark.png` | 278×186 | Isotipo blanco |
+| `logo-lime-mark.png` | 278×186 | Isotipo lime |
+| `hero-pix.png` | 1040×360 | Hero del email de lanzamiento |
+| `step-1.png`, `step-2.png`, `step-3.png` | 2084×1324 | Capturas de los 3 pasos de activación |
+| `icon-instant.png`, `icon-free.png`, `icon-key.png` | 80×80 | Iconos de beneficios |
+| `push-icon.png` | 120×120 | Icono de notificación push |
 
 ## Notas
 
-- Rama `main` fijada en la URL. Para invalidar caché de jsDelivr tras reemplazar una imagen,
-  usar un tag de versión (`@v2`) en vez de `@main`, o purgar en https://www.jsdelivr.com/tools/purge
-- Las imágenes están a 2x para pantallas retina; el ancho se fuerza por atributo `width` en el HTML.
+- Rama `main` fijada en la URL. Si se reemplaza una imagen conservando el nombre, jsDelivr
+  seguirá sirviendo la versión cacheada: purgar en https://www.jsdelivr.com/tools/purge
+  o pasar a un tag de versión (`@v2`) en vez de `@main`.
+- Las imágenes están sobredimensionadas para retina; el ancho de render se fuerza con los
+  atributos `width`/`height` en el HTML del email.
